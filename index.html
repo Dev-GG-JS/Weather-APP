@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="top-banner">
+      <div class="container">
+        <h1 class="heading">Simple Weather App</h1>
+        <form id="form">
+          <input
+            id="search"
+            type="text"
+            placeholder="Search for a city"
+            autofocus
+          />
+
+          <select name="cars" id="state">
+            <option value="DO">DO</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="MEX">MEX</option>
+          </select>
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+    <section class="city-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="container">
+        <small
+          >Made with <span>❤</span> by
+          <a href="http://georgemartsoukos.com/" target="_blank"
+            >George Martsoukos</a
+          >
+        </small>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
